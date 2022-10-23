@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Zamów książke</h1>
+    <div>
+        <form>
+        <label for="imiei">Podaj imie i nazwisko:</label> <br>
+        <input type="text" id="imiei" name="imiei" required> <br>
+        <label for="emial">Podaj email:</label> <br>
+        <input type="email" id="email" name="email" required> <br>
+        <label for="ilosc">Podaj ilość książek:</label> <br>
+        <input type="number" id="ilosc" name="ilosc" min="0" required> <br>
+
+
+        <label for="gatunek">Wybierz gatunek ksiązki: (ksiązki będą wybrane losowo)</label> <br>
+        <input type="checkbox" id="gatunek" name="gatunek" >Horror <br>
+        <input type="checkbox" id="gatunek" name="gatunek" >Fantazja <br>
+        <input type="checkbox" id="gatunek" name="gatunek" >Kryminał <br>
+        <input type="checkbox" id="gatunek" name="gatunek" >Thriller <br>
+        <label for="zamow">Gdzie dowieść:</label> <br>
+        <input type="radio" id="zamow" name="dostawa" value="Inpost" >Inpost <br>
+        <input type="radio" id="zamow" name="dostawa" value="Poczta" >Poczta <br>
+        <input type="radio" id="zamow" name="dostawa" value="Dom" >Do domu <br>
+
+
+        <label for="imie">Wybierz autora:</label>
+        <select id="imie">
+          <option value="m" selected >Marcin Bruchnalski</option>
+          <option value="l">Ignacy Czwartos</option>
+          <option value="y">Antonina Domańska</option>
+        </select> <br>
+
+
+        <label for="opinia">Napisz co chcesz mieć na tytuwej stronie:</label> <br>
+       <textarea id="opinia" maxlength="250" rows="10" cols="50" required ></textarea> <br>
+       <input class="btn" type="submit" value="Wyślij">
+       <input class="btn" type="reset" value="Anuluj">
+    </form>
+    </div>
+</body>
+</html>

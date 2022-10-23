@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miernik jakości hasła</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function f(){
+        var x = input1.value
+         if(x==""){
+         p1.style.color="red"
+         p1.innerHTML="WPISZ HASŁO"
+         }
+         else if(x.search("[0-9]")>=0 && x.length>6){
+         p1.style.color="green"
+         p1.innerHTML="DOBRE"        
+         }
+         else if(x.search("[0-9]")>=0 && x.length>=4 && x.length<=6){
+         p1.style.color="blue"
+         p1.innerHTML="ŚREDNIE"       
+         }
+         else {
+         p1.style.color="yellow"
+         p1.innerHTML="SŁABE"
+         }
+        }
+        </script> 
+</head>
+<body>
+    <div class="b"><a href="index.html">Weryfikacja jakości hasła</a>
+    </div>
+    <div class="pl">
+<h1>Wybierz opcje</h1>
+<ul>
+    <li><a href="sprawdz.html">Sprawdz hasło</a></li>
+    <li><a href="reguły.html">Reguły tworzenia hasła</a></li>
+</ul>
+    </div>
+    <div class="pp">
+        <p>Wspisz hasło:
+            <input type="password" id="input1">
+            <input type="button" value="Weryfikuj" onclick="f()">
+               </p>
+               <p id="p1"></p>
+    </div>
+    <div class="s">
+<p>Wskaźnik jakości hasła</p>
+<p>Twórca strony:Adrian Kalota</p>
+    </div>
+</body>
+</html>

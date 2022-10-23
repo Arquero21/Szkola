@@ -1,0 +1,35 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.baner{
+    background-color: sienna;
+    color: white;
+    height: 150px;
+    float: left;
+}
+.baner1{
+    width: 40%;
+}
+.baner2{
+    width: 50%;
+    font-size: 150%;
+}
+.baner3{
+    width: 10%;
+    text-align: center;
+}
+.main{
+    background-color: tan;
+    padding: 100px;
+    clear: both;
+}
+a{
+    border: 1px sienna dotted;
+    background-color: tan;
+    color: sienna;
+    padding: 40px;
+    line-height: 150px;
+}
+ul{
+    list-style-type: circle;
+}
