@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <select id="szczyty">
+        <option value="...">Wybierz łańcuch górski</option>
+        <option value="Rysy - 2499 m.n.p.m">Tatry</option>
+        <option value="Śnieżka - 1603 m.n.p.m">Karkonosze</option>
+        <option value="Babia Góra - 1725 m.n.p.m">Beskidy</option>
+      </select>
+      <div id="opis"></div>
+
+    <script>
+
+
+const szczyty=document.querySelector('#szczyty');
+const opis=document.querySelector('#opis');
+      
+szczyty.addEventListener("input", function(){
+			opis.innerHTML='Najwyższy szczyt: '+szczyty.value;
+});
+    </script>
+</body>
+</html>

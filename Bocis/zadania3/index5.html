@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index5</title>
+</head>
+<body>
+    <div id="informacja">
+    </div>
+    <script>
+    
+
+const informacja=document.querySelector('#informacja');
+let promien=Number(prompt("Podaj promień: "));
+let kod="";
+        do
+        {
+            kod+="Obwód koła = "+2*Math.PI*promien;
+            kod+="<br>Pole koła = "+Math.PI*Math.pow(promien,2);
+            informacja.innerHTML=kod;
+            promien = Number;
+        } while (promien>0)
+    </script>
+</body>
+</html>

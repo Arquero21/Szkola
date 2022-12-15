@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="checkbox" id="obiad" value="1"> Zapoznałem się z regulaminem.  
+<div></div>
+<div id="opis"></div>
+<script>
+
+const div=document.querySelector('div');
+const checkbox=document.querySelector('input');
+let informacja;
+
+checkbox.addEventListener("click",function() {
+if(checkbox.checked == true) 
+  {
+    informacja="<h2>Pamiętaj! Koniecznie przeczytaj nasz regulamin.</h2>";
+  }
+else  
+  {
+    informacja=''; 
+  }
+  
+div.innerHTML=informacja;
+});
+</script>
+
+</body>
+</html>
