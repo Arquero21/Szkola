@@ -1,0 +1,28 @@
+
+#nagłowek{
+	text-align:center;
+	color: white;
+	height:200px;
+	background:green;
+}
+.kolumna1{
+	float:left;
+	width:10%;
+	height:800px;
+    background:yellow;
+}
+.kolumna2{
+	float:right;
+	width:90%;
+	height:800px;
+	background:aqua;
+}
+#clear{
+	clear:both;
+}
+#stopka{
+	color:white;
+	height:25px;
+	text-align:right;
+	background:red;
+}

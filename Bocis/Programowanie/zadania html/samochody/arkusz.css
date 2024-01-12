@@ -1,0 +1,39 @@
+html{background:green;
+}
+
+
+
+ul li{
+	display:block;
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul{
+	width:180px;
+}
+#nagłowek{
+	text-align:right;
+	color: white;
+	width: 936px;
+	height: 25px;
+}
+.kolumna1{
+	float:left;
+	width:40%;
+	height:900px;
+    background:#8A2BE2;
+}
+.kolumna2{
+	float:right;
+	width:60%;
+	height:900px;
+	background:aqua;
+}
+#clear{
+	clear:both;
+}
+#stopka{
+	width:936px;
+	height:25px;
+}

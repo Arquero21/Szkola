@@ -1,0 +1,26 @@
+ul, ul li {                            /*CZYSZCZENIE FORMATOWANIA*/
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+ul li{                                  /*USTAWIENIE ELEMENTÓW W LINII*/
+	float:left;
+}
+ul a:link, ul a:visited {               /*FORMATOWANIE WUGLĄDU PRZYCISKÓW*/
+	text-decoration: none;
+	display: block;
+	width: 80px;
+	text-align: center;
+	background-color: #7CFC00;
+	color: #4B0082;
+	border: 2px outset #7CFC00;
+	padding: 5px;
+}
+
+ul a:hover {                            /*ZMIANA ZACHOWANIE PO NAJECHANIU MYSZKĄ*/
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+	background-color:#00BFFF;
+	color:#EE82EE;
+}

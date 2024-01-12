@@ -1,0 +1,45 @@
+html{background:green;
+}
+
+#nagłowek{
+	text-align:left;
+	color:white;
+	width:100%;
+	height:70px;
+	font:Ephesis;
+	font-size:50px
+}
+.kolumna1{
+	width:100%;
+	height:570px;
+    background:aqua;
+	font:Stick No Bills;
+	font-size:20px
+}
+table, tr, td{
+	margin: auto;
+	width:80%;
+	height:60px;
+	background-color: purple;
+	text-align:center;
+	white-space: nowrap;
+	color:white;
+}
+td{
+border:dotted;
+}
+table{
+	border:5px solid red;
+	background-color: white;
+}
+td:hover{
+	background-color: yellowgreen;
+	transition: .2s ease all;
+}
+#clear{
+	clear:both;
+}
+#stopka{
+	width:936px;
+	height:25px;
+}
