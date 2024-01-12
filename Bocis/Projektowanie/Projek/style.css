@@ -1,0 +1,95 @@
+#nagłowek{
+	text-align:center;
+	color: black;
+	height:250px;
+	background-image:url(przepisna.jpg);
+	font-family: 'Palatino Linotype';
+}
+.kolumna1{
+	float:left;
+	width:20%;
+	height:75px;
+    background:#00FFFF;
+}
+.kolumna2{
+	float:left;
+	width:20%;
+	height:75px;
+	background:#7FFF00;
+
+}
+.kolumna3{
+float:left;
+	width:20%;
+	height:75px;
+    background:#4159E0;
+}
+.kolumna4{
+	float:left;
+	width:20%;
+	height:75px;
+    background:	#C71585;
+}
+.kolumna5{
+	float:left;
+	width:20%;
+	height:75px;
+    background:	#970DBA;
+}
+a:link {color: white; font:'URW Chancery L';}
+a:visited {color: #F70505; font: 'URW Chancery L';}
+a:hover {color: #DB5CC4; font:1cm'OCR A Std';}
+a:active {color:#F06108; font:1cm 'Jazz LET';}
+
+.kolumna6{
+text-align:center;
+	float:left;
+	width:100%;
+	height:150px;
+	background:#23E889;
+}
+
+#stopka{
+	color:black;
+	height:800px;
+	background:#23ECFA;
+	font-family:Courier;
+	text-align:right;
+}
+ul, ul li {
+	margin: 0; padding: 0;
+}
+#menu li{
+	list-style: none;
+}
+#menu, #menu ul{
+	width: 140px;
+}
+#menu li{
+	position: relative;
+}
+#menu ul {
+	position: absolute;
+	top: 0;
+left: 160px;
+	padding-left: 1px;
+	visibility: hidden;
+}
+#menu li:hover ul{
+	visibility: visible;
+	width: auto;
+	height: auto;
+}
+#menu a, #menu li:hover li a{
+	display: block;
+	font:FreeMono;
+	text-decoration:none;
+	padding:0 10px;
+	width: 140px;
+	color: red;
+	background: #F7F30F;
+}
+#menu li:hover a, #menu li:hover li:hover a {
+	background: #0B0870;
+	color: 04FC00;
+}

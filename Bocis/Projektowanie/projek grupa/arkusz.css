@@ -1,0 +1,46 @@
+
+#nagłowek{
+	text-align:center;
+	color: white;
+	height:200px;
+	background:red;
+}
+.kolumna1{
+	float:left;
+	width:25%;
+	height:75px;
+    background:#00FFFF;
+}
+.kolumna2{
+	float:right;
+	width:25%;
+	height:75px;
+	background:#7FFF00;
+
+}
+.kolumna3{
+	float:left;
+	width:25%;
+	height:75px;
+    background:#FF8C00
+}
+.kolumna4{
+	float:left;
+	width:25%;
+	height:75px;
+    background:	#C71585;
+}
+a:link {color: purple; font:'Monotye Corsiva';}
+a:visited {color: teal; font: 1cm 'Andale Mono';}
+a:hover {color: green; font: 28px Arial;}
+a:active {color: magenta; font: 10pt Georgia;}
+#clear{
+	clear:both;
+}
+#stopka{
+	color:white;
+	height:800px;
+	
+	
+	background:orange;
+}

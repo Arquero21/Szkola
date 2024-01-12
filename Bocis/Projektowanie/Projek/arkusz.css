@@ -1,0 +1,52 @@
+
+#nagłowek{
+	text-align:center;
+	color: white;
+	height:100px;
+	background:red;
+}
+.kolumna1{
+	float:left;
+	width:20%;
+	height:75px;
+    background:#00FFFF;
+}
+.kolumna2{
+	float:left;
+	width:20%;
+	height:75px;
+	background:#7FFF00;
+
+}
+.kolumna3{
+float:left;
+	width:20%;
+	height:75px;
+    background:#4159E0;
+}
+.kolumna4{
+	float:left;
+	width:20%;
+	height:75px;
+    background:	#C71585;
+}
+.kolumna5{
+float:left;
+	width:20%;
+	height:75px;
+    background:	#970DBA;
+}
+a:link {color: white; font:FreeMono;}
+a:visited {color: #F70505; font: FreeMono;}
+a:hover {color: #DB5CC4; font:1cm'Andale Mono';}
+a:active {color:#F06108; font:1cm 'Andale Mono';}
+#clear{
+	clear:both;
+}
+#stopka{
+	color:black;
+	height:800px;
+	background:#EFFF5C;
+	background-image:url(jedzenie.jpg);
+	font:'Bradley Hand';
+}
