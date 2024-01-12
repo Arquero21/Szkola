@@ -1,0 +1,44 @@
+html, body
+{
+	margin: auto;
+	height: 100%;
+}
+
+#nagłówek
+{
+	background-color: #812F8D;
+	color: white;
+	font-size: 200%;
+	text-align: center;
+	padding: 10px;
+}
+
+nav
+{
+	background-color: #BB74C4;
+	color: white;
+	width: 25%;
+	float: left;
+	height: 100%;	
+}
+
+#główny
+{
+	width: 75%;
+	float: left;
+}
+h2
+{
+	text-align: center;
+}
+
+form
+{
+	margin: 20px;
+}
+#stopka{
+	clear: both;
+	background-color: #BB74C4;
+	height: 100px;
+	text-align: right;
+}

@@ -1,0 +1,56 @@
+.tytul{
+    background-color:  #4682B4;
+    height: 140px;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 120%;
+    font-family: Verdana;
+}
+.blokl{
+    float: left;
+    width: 40%;
+    background-color:  #40E0D0;
+    height: 500px;
+}
+.blokp{
+    float: left;
+    width: 60%;
+    background-color: #40E0D0;
+    height: 500px;
+}
+.stopka1{
+    float: left;
+    width: 100%;
+  height: 20px;
+    background-color:  #40E0D0;
+text-align: center;
+}
+.stopka2{
+    float: left;
+    width: 100%;
+    background-color: #4682B4;
+    height: 90px;
+    text-align: center;
+    padding-top: 35px;
+    color: white;
+    font-size: 120%;
+    font-family: Verdana;
+}
+img{
+    padding: 5px;
+    margin-left: 25px;
+    border: solid 1px;
+    border-color: #000080;
+    margin-top: 40px;
+}
+p{
+    font-size: 2.5rem;
+    font-family: Verdana;
+}
+li{
+    font-family: Verdana;
+    font-size: 1rem;
+}

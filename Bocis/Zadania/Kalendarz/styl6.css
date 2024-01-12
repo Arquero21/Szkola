@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.baner{
+    background-color: #3CB371;
+    width: 40%;
+    float: left;
+    height: 100px;
+    color: white;
+}
+.baner2{
+    background-color: #3CB371;
+    width: 20%;
+    float: left;
+    height: 100px;
+    color: white;
+}
+
+.main{
+    height: 400px;
+}
+.stopka{
+    background-color: #3CB371;
+    height: 100px;
+    clear: both;
+    color: white;
+}
+/* .main div {
+    background-color: #FFDAB9;
+    width: 170px;
+    height: 90px;
+    margin: 5px;
+    border: 1px solid #3CB371;
+    float: left;
+} */

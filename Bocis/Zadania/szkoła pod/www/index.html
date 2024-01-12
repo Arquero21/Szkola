@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szkoła ponadgimnazjalna</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+		function licz() {
+			var p = document.getElementById('p').value;
+			var n = document.getElementById('n').value;
+			var r = document.getElementById('r').value;
+			var sr = (parseInt(p)+parseInt(n)+parseInt(r))/3
+
+			if ( isNaN(sr) || isNaN(p || n || r) || p  === "" || n  === "" || r  === "" ) 
+			{
+				alert("wpisz poprawne dane");
+			}
+			else
+			{	
+			document.getElementById('out').innerHTML = sr ;
+			}
+		}
+	</script>
+</head>
+<body>
+    <div class="baner">
+        <h1>Projekt strony internetowej szkoły 
+            ponadgimnazjalnej</h1>
+    </div>
+    <div class="panelLewy">
+        <h3>Do pobrania</h3>
+        <ul>
+            <li><a href="../baza/zapytania.txt">zapytania SQL</a></li>
+            <li><a href="../baza/szkola_nowa.sql">baza danych</a></li>
+        </ul>
+    </div>
+    <div class="panelSrodek">
+        <table>
+			<tr>
+				<th>Treść zapytania</th><th width="405">Zrzut ekranu</th>
+			</tr>
+			<tr>
+				<th>INSERT INTO `uczen` (`id`, `nazwisko`, `imie`, `id_klasy`) VALUES ('27', 'Jasny', 'Wiktoria', '1');</th><th><img src="kwerenda1.jpg" alt="kwerenda1.jpg"></th>
+			</tr>
+			<tr>
+				<th> SELECT wychowawca.imie, wychowawca.nazwisko FROM wychowawca inner JOIN uczen ON wychowawca.id_klasy= uczen.id_klasy where uczen.nazwisko = "Markiewicz"</th><th><img src="kwerenda2.jpg" alt="kwerenda2.jpg"></th>
+			</tr>
+			<tr>
+				<th>CREATE USER 'Jan_Bogucki'@'localhost' IDENTIFIED BY 'jb_123'</th><th><img src="nowy_uzytkownik.jpg" alt="nowy_uzytkownik.jpg"></th>
+			</tr>
+			<tr>
+				<th>GRANT SELECT, INSERT, DROP ON szkola.uczen TO 'Jan_Bogucki'@'localhost'</th><th><img src="uprawnienia.jpg" alt="uprawnienia.jpg"></th>
+			</tr>
+		</table>
+    </div>
+    <div class="panelPrawy">
+        <h4>„Obliczanie średniej ocen</h4>
+            <ul>
+                <label><li>Polak<input type="text" id="p"></li></label>
+                <label><li>Nowak<input type="text" id="n"></li></label>
+                <label><li>Rysik<input type="text" id="r"></li></label>
+            </ul>
+            <input type="submit" name="send" value="oblicz" onclick="licz()">
+            <h4>Średnia ocen:</h4><h4 id="out"></h4>
+    </div>
+    <div class="stopka">
+        <h5>Autor: Adrian Kalota</h5>
+    </div>
+</body>
+</html>

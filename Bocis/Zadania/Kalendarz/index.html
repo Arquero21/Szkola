@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organizer</title>
+    <link rel="stylesheet" href="styl6.css">
+</head>
+<body>
+    <div class="baner">
+        <h2>MÓJ ORGANIZER</h2>
+    </div>
+    <div class="baner">
+        <form method="POST" action="">
+            <label>Wpis wydarzenia: </label>
+            <input type="text" name="events" id="events">
+            <button type="submit">ZAPISZ</button>
+        </form>
+        <?php
+            $eventContent = $_POST['events'];
+
+            $connection = mysqli_connect('localhost', 'root', '', 'egzamin6')
+            or die("Brak połączenia z bazą danych");
+
+            $query ="UPDATE zadania SET wpis='$eventContent' WHERE dataZadania='2020-08-27'";
+
+            $result = mysqli_query($connection, $query)
+            or die("Problem z bazą danych");
+                
+            mysqli_close($connection);
+        ?>
+</div>
+    <div class="baner2">
+        <img src="" alt="logo">
+    </div>
+    <div class="main">
+        <?php
+        $connection = mysqli_connect('localhost', 'root', '', 'egzamin6')
+        or die("Brak połączenia z bazą danych");
+
+        $query ="SELECT dataZadania, miesiąc, wpis FROM zadania WHERE miesiąc='sierpień'";
+
+        $result = mysqli_query($connection, $query)
+        or die("Problem z bazą danych");
+
+        while($row = mysqli_fetch_array($result)){
+            print "
+                <div>
+                    <H6>$row[0], $row[1]</H6>
+                    <p>$row[2]</p>
+                </div>
+            ";
+        }
+    
+        mysqli_close($connection);
+    ?>
+    </div>
+    <div class="stopka">
+        <?php 
+        $connection = mysqli_connect('localhost', 'root', '', 'egzamin6')
+        or die("Brak połączenia z bazą danych");
+
+        $query ='SELECT miesiąc, rok FROM zadania WHERE dataZadania="2020-08-01" LIMIT 1';
+
+        $result = mysqli_query($connection, $query)
+        or die("Problem z bazą danych");
+
+        while($row = mysqli_fetch_array($result)){
+            print "
+                <H1>miesiąc: $row[0], rok: $row[1]</H1>
+            ";
+        }
+    
+        mysqli_close($connection);
+    ?>
+        <p>Strone wykonał: Adrian Kalota</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    background-color: sienna;
+    height: 100px;
+    width: 20%;
+    float: left;
+}
+.tytul{
+    background-color: sienna;
+    color: orange;
+    height: 100px;
+    width: 80%;
+    float: left;
+}
+.lewy{
+    background-color: burlywood;
+    height: 700px;
+    width: 70%;
+    float: left;
+}
+.prawy{
+    background-color: burlywood;
+    height: 700px;
+    width: 30%;
+    float: left;
+}
+footer{
+    background-color: sienna;
+    color: orange;
+    text-align: center;
+    clear: both;
+}
+img{
+    margin: 7px;
+    padding: 5px;
+    border: solid rosybrown;
+}
+img:hover{
+    border: solid maroon;
+}
