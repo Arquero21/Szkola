@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liczba losowa</title>
+</head>
+<body>
+    <Script>
+        const tablica = new Array(100);
+
+        function losowaLiczbaCałkowita(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        for (let i = 0; i< tablica.length; i++){
+            tablica[i] = losowaLiczbaCałkowita(1, 100);
+        }
+        document.write(tablica)
+        let liczbyWPredziale = [];
+        for (let i =0; i< tablica.length; i++){
+            if (tablica[i] >= 5 && tablica[i] <= 15){
+                liczbyWPredziale.push(tablica[i]);
+            }
+        }
+
+        document.write("<h1>Liczby w przedziale od 5 do 15:</h1>");
+        if (liczbyWPredziale.length > 0){
+            for(let i = 0; i <liczbyWPredziale.length; i++){
+                document.write(liczbyWPredziale[i] + ",");
+            }
+        }
+       
+    </Script>
+</body>
+</html>

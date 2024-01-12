@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liczba losowa</title>
+</head>
+<body>
+    <Script>
+        const tablica = new Array(100);
+
+        function losowaLiczbaCałkowita(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        for (let i = 0; i< tablica.length; i++){
+            tablica[i] = losowaLiczbaCałkowita(1, 100);
+        }
+        document.write(tablica);
+document.write("<hr>");
+
+
+let najwiekszaLiczba = Math.max(...tablica);
+         let iloscWystapien = 0;
+         for (let i = 0; i < tablica.length; i++){
+            if (tablica[i] === najwiekszaLiczba){
+                iloscWystapien++;
+            }
+         }
+         document.write("<h1>Najwieksza liczba w tablicy: " + najwiekszaLiczba + "</h1>");
+         document.write("<p>Liczba wystapien: " + iloscWystapien + "</p>");
+document.write("<hr>");
+
+
+         const liczbyNieparzyste = tablica.filter(function(liczba) {
+            return liczba % 2 !== 0;
+        });
+
+        document.write("<h1>Liczby nieparzyste:</h1>");
+        
+            for(let i=0; i < liczbyNieparzyste.length; i++){
+                document.write(liczbyNieparzyste[i] + ",");
+            }
+document.write("<hr>");
+document.write("<h1>Liczby z nieparzystych indeksach:</h1>");
+        
+        for(let i=1; i < tablica.length; i+=2){
+            document.write(tablica[i] + ",");
+        }
+document.write("<hr>");
+
+
+let liczbyWPredziale = [];
+        for (let i =0; i< tablica.length; i++){
+            if (tablica[i] >= 5 && tablica[i] <= 15){
+                liczbyWPredziale.push(tablica[i]);
+            }
+        }
+
+        document.write("<h1>Liczby w przedziale od 5 do 15:</h1>");
+        if (liczbyWPredziale.length > 0){
+            for(let i = 0; i <liczbyWPredziale.length; i++){
+                document.write(liczbyWPredziale[i] + ",");
+            }
+        }
+document.write("<hr>");
+
+function elementNajblizszy(tablica, a){
+    let najblizszyElement = tablica[0];
+    let najmniejszaroznica = Math.abs(tablica[0] - a);
+
+    for(let i = 1; i <tablica.length; i++){
+    const roznica = Math.abs(tablica[i] - a);
+    if (roznica < najmniejszaroznica){
+        najblizszyElement = tablica[i];
+        najmniejszaroznica = roznica;
+    }
+}
+return najblizszyElement;
+}
+const a =parseInt(prompt("Podaj liczbę:"));
+const najblizszy = elementNajblizszy(tablica, a);
+
+document.write("<h1>Element najblizszy liczbe " + a + ":</h1> " + najblizszy);
+
+document.write("<hr>");
+    const indexMinimum = tablica.indexOf(Math.min(...tablica));
+
+    let poprzednik = null;
+    let nastepnik = null;
+
+    if (indexMinimum > 0){
+        poprzednik = tablica[indexMinimum - 1];
+    }
+    if (indexMinimum < tablica.length - 1){
+        nastepnik = tablica[indexMinimum + 1];
+    }
+
+    document.write("<h1>Porzednik najmniejszej wartości:</h1> " + poprzednik + "<br>");
+    document.write("<h1>Nastepnik najmniejszej wartosci:</h1> " + nastepnik + "<br>");
+    
+    document.write("<hr>");
+
+const nowaTablica = [];
+for(let i = 0; i < tablica.length; i++){
+    if (tablica[i] > 10){
+        nowaTablica.push(tablica[i]);
+    }
+}    
+document.write("<h1>Nowa tablicy:</h1> ", nowaTablica);
+document.write("<hr>");
+
+const Newtablica = new Array(100);
+const oryginalnaTablica = tablica;
+Newtablica[0] = oryginalnaTablica[0];
+for (let i = 1; i > 100; i++){
+    Newtablica[i] = Newtablica[i -1] + oryginalnaTablica[i];
+}
+document.write("<h1>Nowa tablica:</h1> " + Newtablica);
+document.write("<hr>");
+
+
+    </Script>
+</body>
+</html>
