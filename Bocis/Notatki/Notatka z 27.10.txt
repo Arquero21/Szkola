@@ -1,0 +1,33 @@
+Pliki Cookie zapisywane są na komputerze użytkownika strony internetowej w celu zapamiętania parametrów, o których zdecydował Twórca strony.
+
+o ustawieniach ciasteczek wykorzystujemy fonkcje setcookie:
+setcookie(nazwa,wartosc,data_ważności,scieżka,domena,bezpieczne,jedynie_http);
+
+
+np.
+$nazwa_ciasteczka="imie";
+$wartosc_ciasteczka="Janusz";
+$waznosc_ciasteczka=time()+(60*60*24*30); //30dni
+$zasieg_ciasteczka="/";
+setcookie($nazwa_ciasteczka,$wartosc_ciasteczka,$waznosc_ciasteczka,$zasieg_ciasteczka);
+
+
+Nazwa ciasteczka jest jednoznacznym oznaczeniem komórki $_COOKIE, gdzie wczytana i przechowywana będzie jego wartość. Ważność określana jak długo będzie ono aktywne. Ścieżka i domena określają zasięg ciasteczka czyli będzie dostępna dla podstron danej strony. Jeśli chcemy żeby wszystkie podstrony korzystały z ciasteczeka w domene wpisujemy adres domeny głownej. Bezpiecznie może mieć wartośc true/false, true oznacza że ciasteczko może być wysłane jedynie przez https. Jedynie http ustawione na true oznacza że ciasteczko może być wysłane jedynie prze protokół http.
+
+czas ciasteczka liczony jest następująco sekundy*minuty*24godziny*30dni -
+
+w przykładzie od 1 stycznia 1970, do którego została dodana pewna określona liczba sekund. 60 sekund*60minut*24godziny*30dni daje nam wynik 30dni ważności ciasteczka.
+
+Poniżej przykład odczytania wartości zapisanego ciasteczka, kontynuacja ppowyższego przykładu:
+
+if(!isset($_COOKIE[$nazwa_ciasteczka])){
+echo "Ciasteczko" .$nazwa_ciasteczka. "nie została ustawiona!";
+} else{
+echo "Ciasteczko" . $nazwa_ciasteczka . "została ustawiona!<br>";
+echo "Wartośc ciasteczka:" .$_COOKIE[$nazwa_ciasteczka];
+}
+
+
+Aby usunąć ciasteczko, należy je ustawić zgodnie z parametrami, z jakimi było tworzone, nadając mu datę ważności z przeszłości np.:
+$waznosc_ciastecza=time()-3600; 
+wszytskie pozostałem parametry muszą byc takie same jak przy ustawianiu.

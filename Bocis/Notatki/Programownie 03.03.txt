@@ -1,0 +1,22 @@
+Temat:Selektor CSS
+
+rodzaje selektorów:
+*selektor typu- służy do definiowania znaczników
+
+*seleketor potomka- służy do formatowana elementów zawartych w innych elementacg
+np.p u, h2 i,
+
+*selektor dziecka- służy do formatowania elementów które znajdują się o jeden rząd niżej
+rodzic>dziecko {włąściwości:wartości;}
+znacznik dziecka wystę puje bezpośrednio przy rodzicu
+np.p>u, p>i
+
+
+
+*selektorbarci- braci to selektory znajdujące się tym samym rzędzie hierarhii umożliwia to nadanie drugiemu z sąsiadujących elementów takie samego formatowania jak pierwszemu:
+
+brat1+ brat 2 {właściwości: wartości;}
+np.p+u, u+i
+
+Do wykonania pracy domowej użyć zewnętrznego arkusza stylów.
+

@@ -1,0 +1,16 @@
+<a href="https://www.fcbarca.com/">FCBarca</a>
+
+<div class="czerwony">
+<p class="czerwony">
+p.czerwony{color: red; font: 20px Alex Brush;}
+
+h2 i {color: red;}
+p>u {color: blue;}
+u + i {color: red;}
+
+<center><img src="final.jpg" width="180" height="100"></center>
+
+a:link {color: purple; font: 15px  Curely;}
+a:visited {color: aqua; font: 15px Bariol;}
+a:hover {color: blue; font:  20px Amatic;}
+a:active {color: pink; font: 18px 'Calendas Plus';}

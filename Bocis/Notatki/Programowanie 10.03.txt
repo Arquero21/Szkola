@@ -1,0 +1,33 @@
+Temat:Slektory atrybutów w CSS.
+
+W css znaczniki można formatować na podstawie posiadanych przez nie atrybutów.
+1.Prosty selektor atrybutu:
+selektot [atrybut] {włąściwość: wartość;} lub 
+[atrybut] {właściwość: wartość;}
+np.alighn="center" ...
+
+2.Selektor atrybutu posiadającego określoną wartość:
+selektor [atrybut=wartość] {właściwość: wartość;}
+lub
+[atrybut=wartość] {właściwość: wartość;}
+np.[aligt] {właściwość: wartość;}
+
+3.Selektor atrybutu posiadającego określony wyraz:
+selektor [atrybut~=wartość] {właściwość: wartość;}
+lub
+[atrybut~=wartość] {właściwość: wartość;}
+np.[title~="jest"] {właściwość: wartość;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,32 @@
+Temat: Własciwości czcionki cd
+
+styl czcionki - font-style
+
+*normalna -czcionka normalna
+italic -czcionka pochylona
+oblique -czcionka pochylona generowana poprzez pochylenie czcionki normalnej
+
+*warinat czcionki - font-variant
+normal -czcionka normalna
+small-caps -kapitaliki
+
+*grubość czcionki- font-weight -grupość można określić na kilka sposobów 
+słowa kluczowe:
+normal -czcionka normalna
+bold -czcionka
+
+wartośći:
+100, 200, 300, 400 -równoważne z normal
+500, 600, 700 -równoważne z bold
+800, 900 -grube(nie każda czcionka ma wszytkie 9 stopni grubości)
+
+wartości względne (odniesienie do czcionki podstawowej)
+lighter -cieńsza 
+bolder -grubsza
+
+*Odstępy między wierszami- line-height 
+liczba -wielokrotność aktualnego rozmiaru czionki
+wysokość z jednostką miary -określenie odstępu w px, cm, mm, itp.
+wartość procentowa -odstęp  jako procent aktualnego rozmiaru czcionki
+
+marcin.bocis@gmail.com

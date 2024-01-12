@@ -1,0 +1,29 @@
+Temat:Wartości i jednostki stosowane w css.
+
+Każda właściwość używana do definiowania selektora zawiera zbiór dopuszczonych wartości oraz dopuszczalne rodzaje wartości.
+
+Mogą to być:
+
+a)liczby-całkowite, rzeczywiste (część ułamkowa zapisywana jest po kropce)
+b)słowa kluczowe (nie są poprawnie interpretowane)
+c)jesnostki długości- mpgą być zapisane jako bezwglądne i względne
+ -bezwględna: in (cal 1in=2,54cm), cm (centymetr), mm 9milimetr), pt (punkty 1in=72pt), pc (pica 1pc=12pt), px (1piksele 1px=0,75pt)- jednostki bezwflędne są stosowane dosyć rzadko gdy chcemy by dany element miał taką sama wielkość niezależnie od wielkości ekranu
+
+-względne: em (1 em jest wielkością rozmiaru czcionki 0,1em jest najmniehszą wartością która może wyświetlić przeglądarka), ex ( wysikość malej litery x w użytej czcionce) Jednosyki względne stosujemy gdy odwołujemy się do rozmiaru elementu
+
+d)URL- adres/lokalizacja,
+
+w HTML wpisanie wielkości liczbowo bez podania jednostki traktowane było jako określenie w pixekach. Wcsss brak okręslenia jednostki traktiwany jest jako błąd.
+
+e)watości kolorów-W css zdefiniowanych jest 16 kolorów podstawowych i 130 rozszerzonych które można określić słownie
+
+wartości kolorów można również podać na kilka innych sposobów.
+
+
+Praca domowa: Wymień sposoby podawania wartości kolorów w css (8 razem nazwami słownymi) plik zapisać w pdf z nazwiskiem w treści. Wysląć na następnych zajęciach.
+
+
+
+
+
+

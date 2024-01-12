@@ -1,0 +1,25 @@
+Temat:Kaskadowe arkusze stylu (CSS)
+
+Umożliwaia oddzielenie warstwy prezentacji od wasrtwy struktury strony. Język CSS określa układgradiczny strony: parametry czcionki,położenie obiektów, rozmiar obiektów, rpdzaj tła, zmiany wyglądu na podstawie określonych parametrów itp.
+
+
+wszytkie polecenia dotyczące formatowania powinny być umieszczone w odzielnym pliku (arkusz) z rozszerzeniem .CSS
+
+CSS umożliwia formatowanie wielu dokumentów jednym arkuszem stylów. Umożliwia stosowanie różnych układów graficznych w zależności od typu urządzenia na którym zamierzamy wyświetlać stronę.
+
+Istnieją trzy sposoby na dołączanie stylów do dokumentu:
+-lokalny (w linii) bezpośrednia w znaczniu opisywanego elementu
+
+<p style="color: red">Definicja stylu</p>
+
+-wewnętrzny arkusz stylów- definicje stylu dodane są sekcji head dokumentu HTML
+
+-zewnętrzny arkusz stylów- osobny plik w którym zapisane są definicje. Plik jest dołączony poprzez instrukcje znajdująca się w sekcji head dokumentu HTML.
+
+Składnia css:
+-selektor {włąściwość: wartość;} 
+
+p {color: red;}
+
+selektor wskazuje na element (znacznik) jęzuyka HTML do którego odnosi się definicja włąściwość- określa jaki atrybut bedzie opisany
+wartość- określa wartość tego artrybutu.

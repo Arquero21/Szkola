@@ -1,0 +1,30 @@
+Temat:Tło i kolor w CSS
+
+
+1)Kolor elementu pierwszoplanowego, atrybut – color
+
+selektor {color: wartość:} // wartość można zapisać na różne sposoby np. orange lub #f0f0f0
+
+2) kolor tła, atrybut background-color
+selektor {background-color: wartość: }
+3) grafika jako tło, atrybut backgroud-image
+selektor {background-image: url (lokalizacja i nazwa pliku)
+
+body{background-image: url ("Barca.jpg")}
+
+
+powtarzanie grafiki w tle, atrybut: background-repeat (musi wcześniej być określony background-image
+
+repeat – powtarzanie w obu kierunkach (domyślnie)
+repeat-x – powielanie tylko w poziomie
+repeat-y – powielanie tylko w pionie
+no-repeat – bez powielania
+
+
+blokowanie przewijania grafiki, atrybut background-attachment (musi wczesniej być określony background-image)
+
+
+scroll – przewijanie tła (domyślne)
+fixed – tło unieruchomione względem okna przeglądarki
+local – tło nieruchome względem elementu dla którego zostało zdefiniowane
+

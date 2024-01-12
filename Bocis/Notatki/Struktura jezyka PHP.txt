@@ -1,0 +1,14 @@
+Temat: Struktura jezyka PHP
+
+PHP (Hypertext preprocesor)-jest to obiektoey jezyk programowania, wykonywany po stronie serwera. 
+
+PHP posiada prostą składnie. Kod umieszczany jest w plikach o domyślnym rozszerzeniu .php. Taki plik umieszczamy na serwerze, który musi mieć interpreter PHP w zgodnej wersji. 
+
+Język PHP umożliwia przetwarzanie danych z formularzy, generowanie dynamicznej zawartości stron, wysyłanie i odbieranie plików cookies,  obsługa i wykonywanie operacji n abazie danych, tworzenie dokumemtów PDF.
+
+Głowne obszary zastosowania:
+-skrypty po stronie serwera
+-skrypty wywoływane z wiersza poleceń
+-aplikacje po stronie serwera
+
+Struktura:

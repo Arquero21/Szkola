@@ -1,0 +1,69 @@
+Temat:Kaskadowe arkusze stylu (CSS)
+
+Umożliwaia oddzielenie warstwy prezentacji od wasrtwy struktury strony. Język CSS określa układgradiczny strony: parametry czcionki,położenie obiektów, rozmiar obiektów, rpdzaj tła, zmiany wyglądu na podstawie określonych parametrów itp.
+
+
+wszytkie polecenia dotyczące formatowania powinny być umieszczone w odzielnym pliku (arkusz) z rozszerzeniem .CSS
+
+CSS umożliwia formatowanie wielu dokumentów jednym arkuszem stylów. Umożliwia stosowanie różnych układów graficznych w zależności od typu urządzenia na którym zamierzamy wyświetlać stronę.
+
+Istnieją trzy sposoby na dołączanie stylów do dokumentu:
+-lokalny (w linii) bezpośrednia w znaczniu opisywanego elementu
+
+<p style="color: red">Definicja stylu</p>
+
+-wewnętrzny arkusz stylów- definicje stylu dodane są sekcji head dokumentu HTML
+
+-zewnętrzny arkusz stylów- osobny plik w którym zapisane są definicje. Plik jest dołączony poprzez instrukcje znajdująca się w sekcji head dokumentu HTML.
+
+Składnia css:
+-selektor {włąściwość: wartość;} 
+
+p {color: red;}
+
+selektor wskazuje na element (znacznik) jęzuyka HTML do którego odnosi się definicja włąściwość- określa jaki atrybut bedzie opisany
+wartość- określa wartość tego artrybutu.
+
+Temat: Kaskadowość Arkuszy stylów.
+
+Może pojawić siękonflikt gdy jeden elemnt opisywany jest przez kilka arkuszy stylów (np.lokalny i zawnętrzny_ w takim wypadku zawsze pierwszeństwo ma styl znajduj acy się bliżej danego elementu. Wążność stylów została ustalona następująco"
+
+1)Styl lokalny
+2)Rozciągnięcie stylu
+3)Wydzielone bloki
+4)Wewnętrzy arkusz stylów
+5)zewnętrzny arkusz stylów
+6)Import arkusza
+7)Atrybuty definiowane w HTML
+
+Styl numer 1 ma najwawyższy priorytet a 7 najnyższy. Style z wyzszym priorutetem mają pierwszeństwo w formatowaniu elementó.
+
+Postepując zgodnie z zasadami kaskadowości stylów w dokumencie HTML polecenia dołączenia zewnętrznego arkusza stylów trzeba umieścić przed deklaracjami wewnętrznego arkusza.
+
+Zasady kaskadowścimozna zmienić. Do tego celu słuzy polecenie !important umieszczone w deklaracji po wartości której dotyczy. Polecenie !important dotyczy tylko właściwości dla której zostało użyte np:
+p {front-size: 20pt !importany; color: green;}
+
+<p style= "front-size: 12pt; color red">poppoopopopop </p>
+
+
+atrybuty definiowane w HTML zawsze będą nadpisywane przez style gdyż mają najniższy priorytet.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

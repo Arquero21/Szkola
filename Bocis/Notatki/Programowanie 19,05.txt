@@ -1,0 +1,63 @@
+Temat: Model blokowy css
+
+wszytkie elementy projektowane w css można traktować jako prostokątne bloki, odpowiednio sformatowane i rozmieszczone na stronie internetowej. Każdy taki blok ma pewne określone atrybuty: marginesy, obramowania, wypełnienie (odstęp między zawartością a obramowaniem), zawarotość. 
+
+Margin- margines wokół ramki (margines zewnętzeny).Pusty obszar wokół ramki nie ma koloru tła i jest przezroczysty.
+
+Border- obramowanie wokół zawartości elementu, ma swój styl i 
+kolor
+
+padding- odstęp między obramowaniem i zawarością elementu (margines wewnętzrny)
+
+contend- zawartość danego elemntu np. tekst 
+
+1)Obramowanie -ma dwa atrybuty które muszą być określone
+
+a)szerokość obramowania - border-width 
+selektor {border-width: wartości;}
+
+jedna wartość- jednakowa szerokość dla wszytkich krawędzi
+dwie- osobna szerokość poziomych i pionowych krawędzi
+trzy- górna, pionowe, dolna
+cztery- górna, prawa, dolna, lewa
+
+określenie tylko jednej krawędzi:
+border-top-widht -górna
+border-bottom-widht- dolna
+border-left-widht- lewa
+border-rigth-widht- prawa
+
+szerokość można określić w dowolnych jednośtkach lub za pomocą 3 wartości względnych:
+thin- cienkie
+medium- średnie
+thick- grube
+
+b)styl obramowania- border-style
+
+selektor {border-style: wartoścć;}
+
+jedna wartość- jednakowa szerokość dla wszytkich krawędzi
+dwie- osobna szerokość poziomych i pionowych krawędzi
+trzy- górna, pionowe, dolna
+cztery- górna, prawa, dolna, lewa
+
+określenie stylu konkretnej krawędzi:
+określenie tylko jednej krawędzi:
+
+border-top-style -górna
+border-bottom-style- dolna
+border-left-style- lewa
+border-rigth-style- prawa
+
+warości (typy obramowania)
+
+-none -bez obramowania
+-hidden -ukryte obramowanie
+-dotted -linia kropkowana
+-dashed -linia kreskowana
+-solid -linia ciągła
+-duoble -linia podwójna
+-grove -rowek
+-ridge -grzbiet
+-inset -ramka
+-outset -przycisk

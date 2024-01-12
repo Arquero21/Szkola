@@ -1,0 +1,58 @@
+Temat:Właściwości tekstu w css.
+
+*Wcięcie tekstu -text-indent
+
+selektor {text-indent: wartość;} wartość określamy w jednostkach
+
+*wyrównanie tekstu określa się za pomocą atrybutu -text-align i określonych wartości
+
+selektor {text-align: wartości;}
+
+left -wyrównianie do lewego marginesu (domyślnie)
+right -do prawego
+center -wyśrodkowanie
+justify -wyjustowanie (równomierne rozłożenie tektu)
+
+*Ozdabianie tekstu -text-decoration
+
+selektor {text-decoration: wartości;}
+
+none -bez zmian
+underline -tekst podkreślony
+overline -linia nad tekstem
+line-through -tekst przekreślony
+blink -migotanie tekstu (obecnie nie obsługiwane)
+
+
+*Tło i kolor tekstu -color i background-color
+
+selektor {color: wartości;}
+selektor {background-color: wartości;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

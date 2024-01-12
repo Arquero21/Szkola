@@ -1,0 +1,29 @@
+Temat: Pseudo klasy w CSS
+Służą do nadawania formatowania elementom których stan zmienia się wraz z działaniami użytkownika. takim przykładem są linki (np. przes odwiedzeniem link ma koloe niebieski, po najechaniu kursorem żółty a po odwiedzenio linku zmnienia kolor na czerwony).
+
+Stany:
+:active - odwiedzony, strona aktualnie wczytana
+:link -link nieaktywny, nie zsotał odwiedzony
+:visited -link odwiedzony, strona była otwierana wcześniej
+:hover -link gotowy do kliknięcia (kursor myszy ustawiony na linku)
+
+Forma zapisu:
+a:pseudoklasa {włąściwość: wartość;}
+
+Pseudoklasy muszą  być formatowane w określonej klejności:
+
+a:link{włąściwość: wartość;}
+a: visited {włąściwość: wartość;}
+a:hover {włąściwość: wartość;}
+a:active {włąściwość: wartość;}
+
+Zadanie domowe: Stwórz stronę z linkiem, w CSS nadaj linkowi następujące formatowanie
+*przed odwiedzenie -kolor fioletowy, rozmiar czcionki 15px, typ czcionki 'Monotyoe Corsiva' 
+*po najechaniu kursiwrem -kolor zielony, rozmiar 28px, czcionka Arial
+*link aktywny -koloe magenta, rozmiar 10pt. czcionka Georgia
+*link odwiedzony -kolor teal, rozmiar 1cm , czcionka Andale Mono
+
+
+
+
+
