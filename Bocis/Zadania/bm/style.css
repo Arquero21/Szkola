@@ -1,0 +1,35 @@
+table, tr,th,td{
+    border: 2px solid black;
+}
+table{
+    margin: 80px;
+    border-collapse: collapse;
+}
+.kal{
+    height: 500px;
+    margin-left: 100px;
+    width: 40%;
+    float: left;
+    text-align: center;
+    background-color: rgb(152, 204, 204);
+}
+.tab{
+    height: 500px;
+    width: 40%;
+    float: left;
+    background-color: rgb(124, 124, 99);
+}
+form{
+    padding: 150px;
+}
+input{
+    padding: 5px;
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px solid black;
+}
+button{
+    padding: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
+}

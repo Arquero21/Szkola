@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="kal">
+      <form>
+        <label>
+          Waga (kg):
+          <input type="number" id="waga">
+        </label>
+        <br>
+        <label>
+          Wzrost (cm):
+          <input type="number" id="wzrost">
+        </label>
+        <br>
+        <button type="button" onclick="obliczBMI()">Oblicz BMI</button>
+        <div id="wynik"></div>
+      </form>
+    </div>
+    <div class="tab">
+      <table id="tabela">
+        <tr>
+          <th>Kategoria</th>
+          <th>BMI(kg/m²)</th>
+          <th>Waga ciała</th>
+        </tr>
+        <tr>
+          <td>wygłodzenie</td>
+          <td>&lt; 16.0</td>
+          <td>niedowaga</td>
+        </tr>
+        <tr>
+          <td>wychudzenie</td>
+          <td>16.0-16.99</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>niedowaga</td>
+          <td>17.0-18.49</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>pożądna masa ciała</td>
+          <td>18.5-24.99</td>
+          <td>optimum</td>
+        </tr>
+        <tr>
+          <td>nadwaga</td>
+          <td>25.0-29.99</td>
+          <td>nadwaga</td>
+        </tr>
+        <tr>
+          <td>otyłość I stopnia</td>
+          <td>30.0-34.99</td>
+          <td>otyłość</td>
+        </tr>
+        <tr>
+          <td>otyłość II stopnia(duża)</td>
+          <td>35.0-39.99</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>otyłość III stopnia(chorobliwa)</td>
+          <td>&gt; 40.0</td>
+          <td></td>
+        </tr>
+      </table>
+
+    </div>
+
+    <script>
+ function obliczBMI() {
+  let waga = document.getElementById("waga").value;
+  let wzrost = document.getElementById("wzrost").value / 100;
+  let bmi = waga / (wzrost * wzrost);
+  bmi = bmi.toFixed(2);
+  let wynik = document.getElementById("wynik");
+  wynik.innerHTML = "Twoje BMI wynosi: " + bmi;
+  let tabela = document.getElementById("tabela");
+  
+
+  // resetowanie kolorów w tabeli
+  for (let i = 1; i < tabela.rows.length; i++) {
+    tabela.rows[i].style.backgroundColor = "";
+  }
+
+  if (bmi < 16) {
+    tabela.rows[1].style.backgroundColor = "rgb(9, 22, 207)";
+  } else if (bmi >= 16 && bmi < 17) {
+    tabela.rows[2].style.backgroundColor = "rgb(7, 92, 189)";
+  } else if (bmi >= 17 && bmi < 18.5) {
+    tabela.rows[3].style.backgroundColor = "rgb(92, 243, 99)";
+  } else if (bmi >= 18.5 && bmi < 25) {
+    tabela.rows[4].style.backgroundColor = "rgb(160, 230, 160)";
+  } else if (bmi >= 25 && bmi < 30) {
+    tabela.rows[5].style.backgroundColor = "#e8ee9b";
+  } else if (bmi >= 30 && bmi < 35) {
+    tabela.rows[6].style.backgroundColor = "#e3f736";
+  } else if (bmi >= 35 && bmi < 40) {
+    tabela.rows[7].style.backgroundColor = "#ec3636";
+  } else if (bmi >= 40) {
+    tabela.rows[8].style.backgroundColor = "#5f0404";
+  }
+
+  // document.getElementById("wynik").innerHTML = `Twoja waga: ${waga} kg; Twój wzrost: ${wzrost * 100} cm <br> BMI wynosi: ${bmi}`;
+}
+
+</script>
+  </body>
+  </html>
+
+
+  
+  
+
