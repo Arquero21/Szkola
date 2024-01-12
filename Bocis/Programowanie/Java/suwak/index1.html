@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Powitaj</title>
+</head>
+
+  <body>
+    <button id="przycisk">Powitaj</button>
+    <script>
+        const body=document.querySelector('body');
+        const przycisk=document.querySelector('#przycisk');   
+		przycisk.addEventListener("click", function(){
+            body.innerHTML='<h1>Witaj świecie!</h1>';
+		});
+    </script>
+
+
+       </body>
+
+</body>
+</html>

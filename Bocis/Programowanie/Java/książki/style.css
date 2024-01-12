@@ -1,0 +1,38 @@
+.baner {
+	background-color: #40271a;
+	color: white;
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+	height: 80px;
+}
+.panellewy {
+	background-color: #dbb29c;
+	width: 45%;
+	height: 700px;
+	float: left;
+}
+.panelprawy {
+	background-color: #ffe3d4;
+	width: 55%;
+	height: 700px;
+	float: left;
+}
+.stopka {
+	background-color: #40271a;
+	color: white;
+	text-align: right;
+	clear: both;
+}
+table,
+th {
+	border: 1px dotted brown;
+	width: 500px;
+	margin: 10px;
+	text-align: center;
+}
+img {
+	padding: 30px;
+}
+ol {
+	list-style: upper-roman;
+}
