@@ -1,0 +1,55 @@
+body{
+    display: flex;
+}
+table{
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: 1750px;
+}
+tr{
+    height: 200px;
+    width: 100px;
+    background-color: rgb(53, 10, 133);
+}
+td{
+    width: 700px;
+    border-radius: 10px;
+    padding: 8px;
+}
+input{
+    margin: 3px;
+}
+h2{
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: yellow;
+}
+.form1{
+    height: 200px;
+    background-color: rgb(166, 166, 17);
+    border-radius: 7px;
+    padding: 4px;
+}
+.form2{
+    background-color: greenyellow;
+    border-radius: 7px;
+    padding: 4px;
+}
+.form3{
+    background-color: pink;
+    border-radius: 7px;
+    padding: 4px;
+}
+.form4{
+    background-color: violet;
+    border-radius: 7px;
+    padding: 4px;
+}
+.form5{
+    background-color: aquamarine;
+    border-radius: 7px;
+    padding: 4px;    
+}

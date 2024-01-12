@@ -1,0 +1,18 @@
+body {
+    background-image: url("big-brother-is-watching.jpg");
+}
+form{
+    text-align: center;
+}
+.button{
+    color: white;
+    background-color:rgb(84, 173, 84);
+    font-size: 17px;
+    padding: 16px 34px;
+    cursor: pointer;
+    
+    border: none;
+}
+textarea{
+    border-radius: 10px;
+}

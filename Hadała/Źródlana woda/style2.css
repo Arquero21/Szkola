@@ -1,0 +1,91 @@
+#main{
+    height: 80%;
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    background-color: #f9f9f9;
+    font-size: 40px;
+    text-align: center;
+    height: 10%;
+    padding-top: 2%;
+    letter-spacing: 5px;
+    border-color: #3366cc;
+    border-style: groove;
+    border-width: 4px;
+    float: center;
+}
+
+#lMargin{
+    background-color: #003399;
+    width: 50%;
+    height: 74%;
+    padding-top: 2%;
+    text-align: center;
+    float: left;
+}
+
+#RMargin{
+    background-color: #3399CC;
+    width: 50%;
+    height: 74%;
+    padding-top: 2%;
+    text-align: center;
+    float: left;
+}
+
+form
+{
+    padding: auto;
+    height: 310px;
+    margin:auto;
+    width: 280px;
+    background-color: #99CCFF;
+    border-radius: 10px;
+}
+
+#pole{
+    padding: auto;
+    margin: auto;
+    width: 280px;
+    height: 60px;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    clear: both;
+    background-color: #cfd8dc;
+    height: 9%;
+    text-align: right;
+}
+
+
+h2
+{
+    text-align: center;
+    color: #990000;
+    
+}
+
+img
+{
+    width: 500px;
+    height: 450px;
+}
+
+table
+{
+    width: 100%;
+    text-align: left;
+}
+
+#button
+{
+    background-color: #3399ff;
+    height: 45px;
+    font-weight: bold;
+    border-radius: 10px;
+}

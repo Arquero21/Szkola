@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sprzedaż czekolady</title>
+        <script src="skrypt.js"></script>
+    </head>
+    <body>
+        <header>
+            Sklep z czekoladą 
+        </header>
+        <div id="form">
+            <form>
+                <table>
+                    <tr>
+                        <td>Wedel</td><td>5,20zł/100g</td>
+                    </tr>
+                    <tr>
+                        <td>Milka</td><td>4,00zł/100g</td>
+                    </tr>
+                    <tr>
+                        <td>Wawel</td><td>4,50zł/100g</td>
+                    </tr>
+                </table>
+                Ilość <input type="number" id="ilosc"><br>
+                <select id="czekolada">
+                    <option value="wedel">Wedel</option>
+                    <option value="milka">Milka</option>
+                    <option value="wawel">Wawel</option>
+                </select>
+                <br>
+                <input type="radio" name="waga" id="gramy" value="100" checked> 100g
+                <input type="radio" name="waga" id="gramy" value="200"> 200g
+                <input type="button" onclick="oblicz()" value="Oblicz">
+
+            </form>
+        </div>
+        <div id="out">
+            <div id="wynik">
+                
+            </div>
+            <div id="obraz">
+                
+            </div>
+        </div>
+        <footer>
+            footer
+        </footer>
+    </body>
+</html>

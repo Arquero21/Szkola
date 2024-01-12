@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styl.css">
+    </head>
+    <body>
+        <div>
+            <form method="POST" action="mailto:zzadania@onet.pl" enctype="text/plain">
+                <h1>
+                    FORMULARZ
+                </h1>
+                Login
+                <input type="text"><br><br>
+                Hasło
+                <input type="password">
+                
+                
+                <p>Jak chcesz rozwiązać zadanie</p>
+                <input type="radio" name="rozwiązanie" id="samodzielnie" checked>samodzielnie
+                <input type="radio" name="rozwiązanie" id="zPomoca" >z pomocą 
+                <input type="radio" name="rozwiązanie" id="kopiujac" >kopiując rozwiązanie
+                <p>Jakie elementy ma zawierać zadanie</p>
+                <input type="checkbox" checked id="html">HTML
+                <input type="checkbox" id="js">JavaScript
+                <input type="checkbox" id="php">PHP
+                <input type="checkbox" id="sql">MySQL
+                <p>Zaznacz właściwią odpowidź</p>
+                <div >
+                    <select multiple id="wybor" size=2>
+                        <option>uczyłem się</option>
+                        <option>nie uczyłem się</option>
+                        <option>umiem</option>
+                        <option>nie umiem</option>
+                    </select>
+                </div>
+
+                    <textarea style="resize:none;" cols="30" rows="10" id="tekst">
+                    </textarea><br>
+                <input type="image" src="Button.png"> <br>
+                <input class="button" type="reset" value="Wyczyść dane">
+            </form>
+        </div>
+    </body>
+</html>

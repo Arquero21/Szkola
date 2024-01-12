@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+            <div class="form1">
+            <form action="odbior_danych.html" method="post">
+              Podaj login i hasło:<br />
+              <input type="text" name="login" id="login" /><br />
+              <input type="password" name="haslo" id="haslo" /><br />
+              <input type="submit" value="Wyślij" />
+              <input type="reset" value="Wyczyść" />
+            </form>
+        </div>
+        </td>
+        <td>
+           <h2>formularz do logowania</h2> 
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+            <div class="form2">
+            <form action="odbior_danych.html" method="post">
+              <label for="imie">Podaj imie:</label><br />
+              <input type="text" name="imie" id="imie" /><br />
+              <label for="nazwisko">Podaj nazwisko:</label><br />
+              <input type="text" name="nazwisko" id="nazwisko" /><br />
+              <label for="wojew">Podaj województwo:</label><br />
+              <select name="wojew">
+                <option selected>Wybierz</option>
+                <option>Zachodniopomorskie</option>
+                <option>Dolnośląskie</option>
+                <option>Lubelskie</option>
+                <option>Wielkopolskie</option>
+              </select><br>
+              <label for="miasto">Podaj miasto:</label><br />
+              <input type="text" name="miasto" id="miasto"><br>
+              <label for="kod">Podaj kod-pocztowy:</label><br>
+              <input type="number" name="kod" id="kod"><br>
+              <label for="ul">Podaj ulice:</label><br>
+              <input type="text" name="ul" id="ul"><br>
+              <label for="email">Podaj adres email:</label><br>
+              <input type="email" name="email" id="email"><br>
+              <label for="zdj">Wybierz zdjęcie:</label><br>
+              <input type="file" name="zdj" id="zdj"><br>
+              <input type="submit" value="Wyślij">
+              <input type="reset" value="Wyczyść">
+            </form>
+        </div>
+        </td>
+        <td>
+           <h2>formularz rejestracji</h2>
+        </td>
+      </tr>
+
+
+
+      <tr>
+        <td>
+            <div class="form3">
+            <form action="odbior_danych.html" method="post">
+                Wybierz auto:   (aby wybrać kilka należy przytrzymaj CTRL)<br>
+                <select multiple>
+                    <option>Audi</option>
+                    <option>KIA</option>
+                    <option>BMW</option>
+                    <option>Mercedes</option>
+                    <option>Ford</option>
+                  </select><br>
+                  <label for="">Podaj płeć</label>
+                  <input type="radio" name="plec" id="kob">Kobieta
+                  <input type="radio" name="plec" id="men">Mężczyzna <br>
+                  <label for="hobby">Podaj swoje zainteresowania:</label> <br>
+                  <input type="checkbox" name="sport" id="hobby">sport
+                  <input type="checkbox" name="kultura" id="hobby">kultura
+                  <input type="checkbox" name="golf" id="hobby">golf
+                  <input type="checkbox" name="gry" id="hobby">gry
+                  <input type="checkbox" name="filmy" id="hobby">filmy <br>
+                  <label for="uwagi">Napisz swoje uwagi:</label><br>
+                  <textarea name="uwagi" id="uwagi" cols="60" rows="10"></textarea><br>
+                  <input type="checkbox" name="zdoga" id="zdoga">Zdoga na przetwarzanie danych <br>
+                  <input type="checkbox" name="zdoga" id="zdoga" checked disabled>Zdoga na otrzymywanie materiałwo <br>
+                  <input type="submit" value="Wyślij" />
+              <input type="reset" value="Wyczyść" />
+            </form>
+        </div>
+        </td>
+        <td>
+            <h2>formularz ankiety</h2>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+            <div class="form4">
+            <form action="odbior_danych.html" method="post">
+                <label for="nazwa">Podaj nazwe filmu:</label><br>
+                <input type="text" name="nazwa" id="nazwa" max="255"><br>
+                <label for="nazwa">Podaj ocene filmu:</label><br>
+                <input type="radio" name="ocena" id="ocena">0
+                <input type="radio" name="ocena" id="ocena">1
+                <input type="radio" name="ocena" id="ocena">2
+                <input type="radio" name="ocena" id="ocena">3
+                <input type="radio" name="ocena" id="ocena">4
+                <input type="radio" name="ocena" id="ocena">5
+                <input type="radio" name="ocena" id="ocena">6
+                <input type="radio" name="ocena" id="ocena">7
+                <input type="radio" name="ocena" id="ocena">8
+                <input type="radio" name="ocena" id="ocena">9
+                <input type="radio" name="ocena" id="ocena">10 <br>
+                <label for="opis">Opisz film:</label><br>
+                <textarea name="opis" id="opis" cols="30" rows="10"></textarea><br>
+                <input type="hidden" name="ukryty" value="ściśle tajna wiadomość shhh">
+                <input type="submit" value="Wyślij" />
+              <input type="reset" value="Wyczyść" />
+            </form>
+        </div>
+        </td>
+        <td>
+            <h2>formularz oceny filmu</h2>
+        </td>
+      </tr>
+
+
+      <tr>
+        <td>
+            <div class="form5">
+            <form action="odbior_danych.html" method="post">
+                <input type="checkbox" name="" id="" checked><br>
+                <input type="checkbox" name="" id="" checked><br>
+                <input type="checkbox" name="" id=""><br>
+                <input type="checkbox" name="" id=""><br>
+                <input type="checkbox" name="" id=""><br>
+                <label for="tel">Podaj numer telefonu</label><br>
+                <input type="text" name="tel" id="tel" value="+48"><br>
+                <label for="woje">Wybierz województwo:</label><br>
+                <select name="woje" id="woje">
+                    <option selected>Śląskie</option>
+                    <option>Karpackie</option>
+                    <option>Dolnośląskie</option>
+                </select><br>
+                <textarea name="kom" id="kom" cols="30" rows="10" placeholder="tutaj wpisz komentarz"></textarea><br>
+                <input type="submit" value="Wyślij" />
+              <input type="reset" value="Wyczyść" />
+            </form>
+        </div>
+        </td>
+        <td>
+            <h2>formularz mix</h2>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

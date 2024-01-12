@@ -1,0 +1,67 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Hurtownia wody źródlanej</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="skrypt.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <header>
+                Źródlana woda uśmiechu doda!!!
+            </header>
+            <div id="lMargin">
+                <form>
+                    <h2>Oferta handlowa: </h2>
+                    <table>
+                        <tr>
+                            <td>Woda Żywiec</td><td>1,50zł/1,5L</td>
+                        </tr>
+                        <tr>
+                            <td>Woda Muszynianka</td><td>1,70zł/1,5L</td>
+                        </tr>
+                        <tr>
+                            <td>Woda Cisowianka</td><td>1,55zł/1,5L</td>
+                        </tr>
+                    </table>
+                    <h2>Formularz zakupów</h2>
+                    <table>
+                    <tr>
+                        <td>
+                            Rodzaj wody
+                        </td>
+                        <td>
+                            <select name="woda" id="woda">
+                                <option value="zywiec">Żywiec</option>
+                                <option value="muszynianka">Muszynianla</option>
+                                <option value="cisowianka">Cisowianka</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            Liczba butelek
+                        </td>
+                        <td>
+                            <input type="number" id="ilosc">
+                        </td>
+                    </tr>
+                    </table>
+                    <input type="button" id="button" onclick="oblicz()" value="Koszt zamówienia">
+                </form>
+                <br>
+            <div id="pole">
+
+            </div>
+        </div>
+        <div id="RMargin">
+            <img src="krajobraz.jfif">
+        </div>
+        <footer>
+            "Jakie to lekkie w kropli deszczu"
+            <h4>Wisława Szymborska</h4>
+        </footer>
+    </div> 
+    </body>
+</html>
