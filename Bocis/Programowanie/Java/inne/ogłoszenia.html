@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+<meta charset="utf-8">
+<title>Ogłoszenia</title>
+<script>
+
+function oblicz(){
+
+var koszt = 0
+
+var ilosc = document.getElementById("liczba_ogloszen").value
+
+koszt = ilosc
+
+if(ilosc <= 50){
+
+ koszt *= 2
+
+}
+else{
+
+ if(ilosc <= 100){
+
+  koszt *= 1.5
+
+ }
+}
+   
+
+if(document.getElementById("staly_klient").checked){
+
+ koszt = 0.8*koszt
+
+}
+
+   document.getElementById("koszt").innerHTML = "Koszt: " + koszt + "zł"
+
+   
+
+}
+
+</script>
+
+
+</head>
+<body>
+
+<h2>Oblicz koszt ogłoszenia</h2>
+
+<p id="koszt"></p>
+
+<input type="number" id="liczba_ogloszen" min="1"><br>
+
+<input type="checkbox" id="staly_klient"> stały klient<br><br>
+
+<button type="button" onclick="oblicz()">oblicz</button>
+
+</body
+</html>

@@ -1,0 +1,225 @@
+.Menu 
+{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    float: left;
+}
+body
+{
+    background-color: #BAD6E6;
+}
+ul, ul li {                            /*CZYSZCZENIE FORMATOWANIA*/
+	display: block;
+	list-style: none;
+	margin: 1;
+	padding: 0;
+}
+ul li{                                  /*USTAWIENIE ELEMENTÓW W LINII*/
+    position: relative;  
+    left: 700px;                          
+	float:left;                          
+	font-family: Georgia;
+}
+
+ul a:link, ul a:visited {   
+    text-decoration: none;
+	display: block;
+	width: 120px;
+	text-align: center;
+	background-color: #ffffff;
+	color: #000000;
+	padding: 10px;
+    font-family: Roboto;
+}
+.Konto
+{
+    float: right;
+    position: relative;
+    right: 50px;
+    background-color: #9D7A20;
+    border-radius: 9px;
+    transform: rotate(0.05deg);
+    border: 10px solid #9D7A20;
+}
+h2
+{
+    font-size: 48px; 
+    font-family: 'Rum Raisin';
+    width: 400px;
+}
+p
+{
+    font-size: 20px;
+    font-family: 'Roboto';
+ width: 600px;
+}
+.zdj
+{
+    position: absolute;
+    right: 70px;
+    top: 120px;
+}
+img
+{
+    border-radius: 21px;  
+    border: 10px solid #BAD6E5;
+}
+.zd
+{
+    position: absolute;
+    right: 0px;
+    top: 550px;
+}
+.lista
+{
+    float: left;
+    position: relative;
+    left: 50px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    transform: rotate(0.05deg);
+    border: 10px solid #ffffff;
+}
+.zasady
+{
+    float: left;
+    position: relative;
+    left: 70px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    transform: rotate(0.05deg);
+    border: 10px solid #ffffff;
+}
+.schro
+{
+    float: left;
+    position: absolute;
+    top: 1000px;
+    width: 40%;
+    height: 300px;
+    background-color: white;
+    border: 20px solid white;
+    border-radius: 10px 0px 0px 10px;
+}
+.wiecej
+{
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 20px;
+    background-color: #9D7A20;
+    border-radius: 9px;
+    transform: rotate(0.05deg);
+    border: 10px solid #9D7A20;
+}
+.zdje
+{
+    float: left;
+    border-radius: 0px 10px 10px 0px; 
+    position: absolute;
+    left: 42%; 
+    top: 980px; 
+}
+h1
+{
+    font-family: 'Rubik';
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    position: absolute;
+    left: 900px;
+    top: 1400px;
+}
+h4
+{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 29px;
+    color: #000000;
+    position: relative;
+    left: 40px;
+
+}
+.pies1
+{
+    background-color: white;
+    position: absolute;
+    left: 10px;
+    top: 1500px;
+    border-radius: 0px 0px 8px 8px;
+}
+h3
+{
+    color: #9D7A20;
+    font-size: 15px;
+    font-family: 'Roboto';
+    position: relative;
+    left: 10px;
+}
+.pies2
+{
+    background-color: white;
+    position: absolute;
+    left: 500px;
+    top: 1500px;
+    border-radius: 0px 0px 8px 8px;
+}
+.pies3
+{
+    background-color: white;
+    position: absolute;
+    left: 1000px;
+    top: 1500px;
+    border-radius: 0px 0px 8px 8px;
+}
+.pies4
+{
+    background-color: white;
+    position: absolute;
+    left: 1500px;
+    top: 1500px;
+    border-radius: 0px 0px 8px 8px;
+}
+.pelna
+{
+        float: left;
+        position: relative;
+        left: 500px;
+        top: 1800px;
+        background-color: #9D7A20;
+        border-radius: 9px;
+        transform: rotate(0.05deg);
+        border: 10px solid #9D7A20;
+    }
+.zbiorka
+{
+    float: left;
+    position: relative;
+    left: 0px;
+    top: 1900px;
+    background-color: white;
+    height: 500px;
+    width: 1700px;
+}
+h5
+{
+    float: left;
+    position: absolute;
+    left: 800px;
+    top: -30px; 
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+}
+.dow
+{
+    float: left;
+    position: relative;
+    left: 800px;
+    top: 0px;
+    background-color: #9D7A20;
+    border-radius: 9px;
+    transform: rotate(0.05deg);
+    border: 15px solid #9D7A20;
+}

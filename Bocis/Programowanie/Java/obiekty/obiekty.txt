@@ -1,0 +1,18 @@
+temat: Tworzenie obiektów w JS
+
+Aby utworzyć nowy obiekt w JS nalezy skorzystać z konstrukcji która zdefiniuje nazwe obiektu jego właściwości i metody
+
+var obiekt_1={
+nazwisko: 'Nowacki',
+imie: 'Marek';
+zawod: 'kolejarz'
+pokaz: function()
+{
+document.write(this.nazwisko+" "+this.imie)
+}
+}
+                             //do istniejacych obiektówe można deklarować nowe właściwości i metody
+
+obiekt_1.wiek = 19;
+obiekt1 wypisz_wiek=function() {alert('Wiek: ' +this.wiek+ 'lat')}
+obiekt1.wypisz();

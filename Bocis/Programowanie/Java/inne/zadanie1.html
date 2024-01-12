@@ -1,0 +1,32 @@
+<html>
+<head>
+<script>
+function przeslij(){
+  var tekst = document.forms["formularz"].tekst.value;
+  
+  var zaznacz = document.forms.formularz.elements["zaznacz"].checked ? "tak" : "nie"
+  
+  var wybierz = "";
+  for(var i=0; i<document.forms.formularz.wybierz.length; i++){
+    if(document.forms.formularz.wybierz[i].checked) wybierz = document.forms.formularz.wybierz[i].value;
+  }
+  
+  var lista = document.forms.formularz.elements["lista"].value;
+  
+  var pole = document.forms.formularz.pole.value;
+  
+  document.getElementById("wynik").innerHTML = tekst + " | zaznaczone: " + zaznacz + " | wybrano: " + wybierz + " | z listy: " + lista + " | pole tekstowe: " + pole;
+}
+</script>
+</head>
+<body>
+<form name='formularz'>
+  <input type='text' name='tekst' onkeyup="przeslij()"><br>
+  <input type="checkbox" value="Gdańsk"  name="zaznacz" onchange="przeslij()" /><br>
+
+  <br>
+  <textarea name="pole" onkeyup="przeslij()">Pole tekstowe</textarea>
+</form>
+<div id="wynik"></div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+ol, ol li {                            /*CZYSZCZENIE FORMATOWANIA*/
+	display: block;
+	list-style: none;
+	margin: 1;
+	padding: 0;
+}
+ol li{    
+	position: relative;   
+	border: 2px solid rgb(1, 217, 255);
+    left: 80px;                          
+	float:left;                          
+	font-family: Georgia;
+}
+ol a:link, ol a:visited {               /*FORMATOWANIE WUGLĄDU PRZYCISKÓW*/
+	text-decoration: none;
+	display: block;
+	width: 500px;
+	height: 20px;
+	text-align: center;
+	background-color: #1e87ff;
+	color: #ffffff;
+	border: 2px outset #15dcff;
+	padding: 23px;
+}
+.przyciski{
+	background-color: rgb(55, 215, 255);
+	height: auto;
+	width: 100%;
+ float: left;
+}
+footer{
+	float: left;
+	height: 500px;
+	width: 100%;
+	
+	font-family: 'Gill Sans';
+	font-size: 40px;
+	text-align: center;
+}
+html{
+	background-color:  rgb(55, 215, 255);
+}

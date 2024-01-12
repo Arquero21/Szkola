@@ -1,0 +1,28 @@
+<html>
+    <head>
+<title>Zaokrąglanie</title>
+<link rel="stylesheet" type="text/css" href="kolo.css">
+    </head>
+    <body>
+        <div class="przyciski">
+        <ol>
+            <li><a href="str.html">Powrót na stronę główną</a></li>
+        </ol>
+    </div>
+<script>
+    alert("Ta strona zaokrągla liczbe do najbliższej liczby całkowitej.");
+    liczba1=prompt("Podaj liczbę którą chcesz zaokrąglić:");
+
+    document.write("Zaokrąglenie liczby "+liczba1+" to: "+Math.round(liczba1));
+</script>
+
+<div class="stopka">
+<img src="kolo.jpg">
+</div>
+<br>
+
+<p>Aby ponownie zaokrąglić liczby musisz odświeżyć stronę (kliknij F5)</p>
+
+<input type="button" value="F5" onClick="location.reload();" />
+    </body>
+    </html>

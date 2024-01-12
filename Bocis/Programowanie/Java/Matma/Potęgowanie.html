@@ -1,0 +1,30 @@
+<html>
+    <head>
+<title>Potęgowanie</title>
+<link rel="stylesheet" type="text/css" href="kwadrat.css">
+    </head>
+    
+    <body>
+        <div class="przyciski">
+
+            <ol>
+                <li><a href="str.html">Powrót na stronę główną</a></li>
+            </ol>
+            </div>
+        <script>
+            alert("Ta strona potęguje liczbe 1 do liczby 2.");
+            liczba1=prompt("Podaj liczbę która będzie potęgą: ");
+
+            liczba2=prompt("Podaj liczbę która bedzie potęgowana: ");
+        
+            document.write("Potęga liczby "+liczba1+" z liczby "+liczba2+" to: "+Math.pow(liczba1,liczba2));
+        </script>
+        <div class="stopka">
+            <img src="kwadrat.jpg" width="700" height="500">
+            </div>
+        <br>
+        <p>Aby ponownie potęgować liczby musisz odświeżyć stronę (kliknij F5)</p>
+
+        <input type="button" value="F5" onClick="location.reload();" />
+    </body>
+</html>

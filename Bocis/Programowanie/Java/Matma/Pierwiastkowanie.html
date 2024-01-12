@@ -1,0 +1,26 @@
+<html> 
+    <head> 
+    <title>Pierwiatskowanie</title>
+    <link rel="stylesheet" type="text/css" href="pierw.css">
+    </head>
+
+    <body>
+        <div class="przyciski">
+        <ol>
+            <li><a href="str.html">Powrót na stronę główną</a></li>
+        </ol>
+    </div>
+    <script>
+        alert("Ta strona pierwiastkuje liczby");
+        liczba1=prompt("Podaj liczbę która będzie pierwiastkowana: ");
+
+        document.write("Pierwiastek z liczby "+liczba1+" to: "+Math.sqrt(liczba1));
+    </script>
+    <div class="stopka">
+        <img src="pierw.jpg" width="700" height="500">
+        </div>
+    <br>
+    <p>Aby ponownie pierwiastkować liczby musisz odświeżyć stronę (kliknij F5)</p>
+    <input type="button" value="F5" onClick="location.reload();" />
+    </body>
+    </html>

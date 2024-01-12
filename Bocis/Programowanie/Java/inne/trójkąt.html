@@ -1,0 +1,40 @@
+<html>
+<head>
+<script>
+
+	var a=prompt("Podaj pierwszy bok: ");
+	var b=prompt("Podaj drugi bok: ");
+	var c=prompt("Podaj trzeci bok: ");
+	
+
+	document.write("Twoje liczby to "+a+" "+b+" "+c+" "); 
+	
+	if((a+b)>c)
+{
+
+    if((a+c)>b)
+    {
+        if((c+b)>a)
+        {
+        document.write("Boki "+a+" "+b+" "+c+" To jest trojkat");
+        }
+        else
+        {
+        document.write("Boki "+a+" "+b+" "+c+" to nie jest trojkat");
+        }
+    }
+    else
+    {
+    document.write("Boki "+a+" "+b+" "+c+" to nie jest trojkat");
+    }
+}
+else
+{
+document.write("Boki "+a+" "+b+" "+c+ "to nie jest trojkat");
+}
+</script>
+</head>
+<body>
+
+</body>
+</html>

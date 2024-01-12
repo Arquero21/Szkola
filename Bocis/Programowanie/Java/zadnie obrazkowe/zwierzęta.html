@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <script>
+            function papuga()
+            {
+                document.getElementById("wynik").innerHTML="papuga";
+                document.getElementById("tresc").innerHTML="Papużko, papużko, <br> Powiedz mi coś na uszko.<br> Nic nie powiem, boś ty plotkarz, <br>Powtórzysz każdemu, kogo spotkasz.";
+            }
+            function zyrafa()
+            {
+                document.getElementById("wynik").innerHTML="ŻYRAFA";
+                document.getElementById("tresc").innerHTML="Żyrafa tym głównie żyje,<br>Że w górę wyciąga szyję. <br>A ja zazdroszczę żyrafie, <br>Ja nie potrafię,";
+            }
+            function krokodyl()
+            {
+                document.getElementById("wynik").innerHTML="KROKODYL";
+                document.getElementById("tresc").innerHTML="Skąd ty jesteś,.krokodylu?<br>Ja? Znad Nilu.<br>Wypuść mnie na kilka chwil, <br>To zawiozę cię nad Nil.";
+            }
+            function zebra()
+            {
+                document.getElementById("wynik").innerHTML="ZEBRA";
+                document.getElementById("tresc").innerHTML="Czy ta zebra jest PRAWDZIWA?<br>Czy to tak NAPRAWDĘ bywa?<br>Czy też malarz z bożej łaski<br>Pomalował osła W PASKI";
+            }
+            function wilk()
+            {
+                document.getElementById("wynik").innerHTML="WILK";
+                document.getElementById("tresc").innerHTML="Powiem ci w słowach kilku,<br>Co myślę o tym wilku:<br>Gdyby nie był na obrazku,<br>Zaraz by cię ziadł, głuptasku.";
+            }
+        </script>
+    </head>
+
+    <body>
+    <div id="tabela">
+        <table id="dane">
+            <tr>
+                <td><img src="papuga.png" width="100px" height="100px" id="papuga" onclick="papuga()" ></td>
+                <td><img src="zyrafa.png" width="100px" height="100px" id="zyrafa" onclick="zyrafa()" ></td>
+                <td><img src="krokodyl.png" width="100px" height="100px" id="krokodyl" onclick="krokodyl()" ></td>
+                <td><img src="zebra.png" width="100px" height="100px" id="zebra" onclick="zebra()" ></td>
+                <td><img src="wilk.png" width="100px" height="100px" id="wilk" onclick="wilk()" ></td>
+            </tr>
+        </table>
+    </div>
+    
+    </body>
+    </html>

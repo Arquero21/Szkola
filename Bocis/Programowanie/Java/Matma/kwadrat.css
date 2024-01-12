@@ -1,0 +1,57 @@
+ol, ol li {                            /*CZYSZCZENIE FORMATOWANIA*/
+	display: block;
+	list-style: none;
+	margin: 1;
+	padding: 0;
+}
+ol li{    
+	position: relative;   
+	border: 2px solid rgb(8, 177, 30);
+    left: 680px;                          
+	float:left;                          
+	font-family: Georgia;
+}
+ol a:link, ol a:visited {               /*FORMATOWANIE WUGLĄDU PRZYCISKÓW*/
+	text-decoration: none;
+	display: block;
+	width: 500px;
+	height: 20px;
+	text-align: center;
+	background-color: #1eff44;
+	color: #000000;
+	border: 2px outset #15ff9d;
+	padding: 23px;
+}
+.przyciski{
+	background-color: rgb(8, 177, 30);
+	height: auto;
+	width: 100%;
+ float: left;
+}
+.stopka{
+    background-color:rgb(8, 177, 30);
+	height: 500px;
+	width: 100%;
+ float: left; 
+ text-align: center;
+}
+p{
+    font-family:'Arial Narrow';
+ font-size: 1cm;
+ text-align: center;
+}
+html{
+    background-color:rgb(8, 177, 30);
+}
+input{position: relative;
+    left: 900px;
+    text-decoration: none;
+	display: block;
+	width: 90px;
+	height: 5px;
+	text-align: center;
+	background-color: #ff1e1e;
+	color: #000000;
+	border: 3px outset #17ad6f;
+	padding: 3px 5px 15px 5px;
+}

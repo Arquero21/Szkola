@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+<meta charset="utf-8">
+<title>Pizza</title>
+<script>
+function przelicz()
+{
+var dor=document.getElementById("d1").value;
+if (!isNaN(dor) && dor!="")
+{
+var koszt=(dor*0)
+document.getElementById("wynik").innerHTML="Koszt dowozu wynosi "+koszt+" zł.";
+}
+if (c1=true)
+{
+var koszt=(dor*1)
+document.getElementById("wynik").innerHTML="Koszt dowozu wynosi do Gdańska "+koszt+" zł.";
+}
+}
+</script>
+</head>
+<body>
+<div id="formularz">
+<form method="post">
+<table>
+<tr>
+<td>Podaj odległość:</td><td><input type="text" id="d1"></td></tr>
+<td colspan="2" align="right">
+<br>
+<input type="checkbox" id="c1"> Gdańsk
+<input type="button" id="przycisk" value="Oblicz" onClick="przelicz()">
+</td>
+</tr>
+</table>
+</form>
+</div>
+<div id="wynik"></div>
+
+</body>
+</html>
+

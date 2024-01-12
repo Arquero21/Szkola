@@ -1,0 +1,26 @@
+<html lang="pl">
+
+<head>
+    <script language="JavaScript" type="text/javascript">
+	<!--Ukrycie przed przeglądarkami nie obsługujących JS
+	function ileDni(year,month,day)
+	{
+	var date1 = new Date();
+	var date2 = new Date(year,month,day);
+	var diff = date2.getTime() - date1.getTime();
+	var dni = Math.floor(diff / (60* 60* 1000* 24));
+	if (dni == 1) return "1 dzień";
+	else return dni + " dni";
+}
+//Koniec kodu JavaScript -->
+</script>
+</head>
+<body>
+   <h2> Jeszcze tylko
+   <script language="JavaScript" type="text/javascript">
+   document.write(ileDni(2022, 3, 12));
+   </script>
+   do 1 stycznia  2020roku.
+</body>
+
+</html>

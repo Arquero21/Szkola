@@ -1,0 +1,33 @@
+Temat: zadarzenia w JS
+
+Zdarzenie to działania które mogą zajść na stronie internetowej: np,kliknicie myszy, najechanie kursirem itp.
+
+Zdarzenia można podzileic na:
+zdarzenia myszy
+-zdarzenia klawiatury
+-dzarzenia dokumentu
+-zdarzeniaformularza
+
+ZDARZENIE                   RODZAJ ELEMENTU                                                OPIS
+OnAboort                      -obraz                                              -anullowanie pobieranie grafiki
+OnBlur                        -okno, formularz                                    -usunięcie aktywności pola 
+OnChange                      -text,textarea, select                              -zwiana zawartości
+OnCLick                       -dowolny znacznik                                   -przy kliknięciu
+ObDBClick                      -||-                                               -przy podwójnym kliknięciu
+OndragDrop                    -okno                                               -przeciągnięcie obiektu za okno 
+OnError                       -obraz,okno                                         -przy błędzie
+OnFocus                       -pkono,formularz                                    -uaktywnienie elementu
+OnKeyDown                     -dokument, obraz,link,textarea                      -wicisnięcie(przytrzymanie)klawisza
+OnKeyPress                     -||-                                               -przycissnięcie klawisza
+OnKeyUp                        -||-                                               -zwolnienie klawisz
+OnLoad                        -ciało dokumentu                                    -ładowanie strony
+OnMouseDown                   -dokument, przycisk, link                           -wciśnięcie(przytrzymanie) myszy
+OnMuseOut                     -wszytko                                            -opuszczenie elementu przez kursor
+OnMouseOver                   -wszytko                                            -najechanie kursorem
+OnMouseUp                     -wszytko                                            -puszczenie klawisza
+OnMove                        -okno                                               -poruszenie oknem
+OnReset                       -formularz                                          -wyczyszczenie formularza
+OnResize                      -okno                                               -przy zmianie rozmiaru
+OnSelect                      -text,textarea                                      -po wybraniu elementu
+OnSubmit                     -formularz                                          -po zatwierdzeniu
+OnUnload                     -ciało dokumentu                                    -zamknięcie strony

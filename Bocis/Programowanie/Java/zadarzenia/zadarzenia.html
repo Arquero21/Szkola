@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Tworzenie skryptów</title>
+<script>
+function podaj_imie()
+{
+var imie=prompt("Jak masz na imię? ");
+if (imie==null || imie==" ")
+	{
+	document.write("Miło że jesteś z nami");
+	}
+else
+	{
+	document.write("Miło że jesteś z nami "+imie);
+	}
+return imie;
+}
+function powitaj (imie)
+	{
+	alert("Witaj na stronie "+imie);
+	}
+</script>
+</head>
+
+<body onLoad="powitaj(imie)">
+<script>
+var imie=podaj_imie();
+</script>
+</body>
+</html>

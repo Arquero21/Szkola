@@ -1,0 +1,20 @@
+temat:obiekty typu array
+tablice służą do przechowywania wartościwielu zmiennych. Obiekt typu array służy do modyfikowania tablic.
+tworzenie tablicy:
+
+var nazwa_tablicy=new Array();
+lub 
+var nazwa_tablicy=[];
+
+np.
+var tab1=new Array(10);
+
+można też od razu przypisać tablicy konkretne wartości np:
+
+var tab2=new Array('Asia','Basia','Zosia');
+
+Aby uzyskać dostęp do elementów tablicy, należy podać numer indeksu danego elementu.
+Elementy tablicy numerowane są od0. np
+
+document.write(tab2[2]); taka instrukcja  wyświetli imei Basia
+
