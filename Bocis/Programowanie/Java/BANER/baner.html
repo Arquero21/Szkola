@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="ban.css">
+    <script>
+        var speed = 90;
+        var text = prompt("Podaj tekst.");
+        function setup() {
+            var padding = "  ";
+            for (var i = 0; i < document.form1.wyswietlacz.size; i++) {
+                padding += " ";
+            }
+            text = padding + text;
+        }
+        function scroll() {
+            document.form1.wyswietlacz.value = text;
+            var temp = text.substr(1, text.length);
+            text = temp + text.substr(0, 1)
+            setTimeout("scroll()", speed);
+        }
+    </script>
+</head>
+
+<body onLoad="setup();scroll()">
+    <form name="form1">
+        <input type="text" name="wyswietlacz" size="100" value="">
+    </form>
+</body>
+
+</html>

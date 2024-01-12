@@ -1,0 +1,19 @@
+h3{color: blue;
+text-align: center;
+background:black; 
+font: 30px Verdana;
+}
+
+p.Rodzaje {font-family: Georgia; font-size: 18pt}
+p.Rodzaje1 {font-family: Arial; font-size: 18pt}
+p.Rodzaje2 {font-family: Courier; font-size: 18pt}
+p.Rodzaje3 {font-family: 'Monotype Corsiva'; font-size: 18pt}
+p.Rodzaje4 {font-family: 'Bradley Hand ITC'; font-size: 18pt}
+
+p.Rozmiar {font-size: xx-small; font-family: Gotu}
+p.Rozmiar1 {font-size: x-small; font-family: Gotu}
+p.Rozmiar2 {font-size: small; font-family: Gotu}
+p.Rozmiar3 {font-size: medium; font-family: Gotu}
+p.Rozmiar4 {font-size: large; font-family: Gotu}
+p.Rozmiar5 {font-size: x-large; font-family: Gotu}
+p.Rozmiar6 {font-size: xx-large; font-family: Gotu}

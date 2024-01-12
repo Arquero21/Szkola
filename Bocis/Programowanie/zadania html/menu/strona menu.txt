@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Adrian Kalota</title>
+<link rel="stylesheet" type="text/css" href="arkusz.css">
+</head>
+<body>
+<ul>
+	<li>1 Fiat Punto</li>
+	<li>2 Fiat Punto</li>
+	<li>3 Fiat Punto</li>
+	<li>4 Opel Corsa</li>
+	<li>5 Opel Corsa</li>
+	<li>6 Toyota Corolla</li>
+	<li>7 Toyota Corolla</li>
+	<li>Toyota Yaris</li>
+	</ul>
+</body>
+</html>	
