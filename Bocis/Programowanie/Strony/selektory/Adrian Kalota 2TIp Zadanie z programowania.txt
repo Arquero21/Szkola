@@ -1,0 +1,14 @@
+<html>
+<head>
+<style type="text/css">
+h2 i {font-size: 20pt; color: green;}
+p>u {font-size: 17pt; color: blue;}
+u + i {font-size: 15pt; color: red;}
+</style>
+</head>
+<body>
+<h2>Ten tekst jest <u><i>selektorem potomka.</i></u> Zdefiniuj to w arkuszu stylów.</h2><br>
+<p>Ten tekst jest <u><i>selektorem dziecka.</i></u> Zdefiniuj to w arkuszu stylów.</p><br>
+<p>Ten tekst jest <u>selektorem braci.</u> <i>Zdefiniuj to w arkuszu stylów.</i></p><br>
+</body>
+</html>

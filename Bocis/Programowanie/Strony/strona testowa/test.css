@@ -1,0 +1,17 @@
+
+p{color: black; background: yellow; font: 50pt 'Arial Black'; text-align: center;}
+
+a:link{color: purple; font: 15px 'Monotye Corsiva';}
+a:visited{color: aqua; font: 15px 'Andale Mono';}
+a:hover{color: blue; font:  20px Arial;}
+a:active{color: pink; font: 18px Georgia;}
+
+h2{color: green; font-family: Algerian; font-style: oblique;}
+
+p.transfer{color: red; font-variant: small-caps; font-family:'Bauhaus 93'; font: 20px;}
+
+div.final{color: white; background: green; font-weight: 600; font-family:'Blackadder ITC';}
+
+div.couch{color: gray; line-height: 5mm; font-family: Elephant;}
+
+div.barca{color: yellow; background: black; font-family: 'Harlow Solid Italic';}

@@ -1,0 +1,27 @@
+h2{color: aqua; 
+text-align: center;
+background:black;
+}
+
+div#tytuł{
+	background: black;
+	color: white;
+	font: 50px Algerian;
+	text-align: center;
+	border: double green;
+}
+div#autor{
+	color: purple;
+	font: 23px Bahnschrift Light;
+	text-align: right;
+}
+div#tekst{
+	color: black;
+	font: 18px Arial;
+	text-align: left;
+}
+
+p.czerwony{color: red; font: 20px Alex Brush;}
+p.niebieski{color: blue; font: 20px Arial;}
+p.zielony{color: green; font: 20px courir new;}
+p.czarny{ color: black; font: 20px Calibri;}
